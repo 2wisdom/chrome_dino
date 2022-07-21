@@ -6,7 +6,7 @@ canvas.height = window.innerHeight - 100
 
 // 공룡 object
 var dino_img = new Image()
-dino_img.src = '/dino.png'
+dino_img.src = './dino.png'
 
 var dino = { // 등장 캐릭터의 속성부터 object 자료에 정리해두면 편리
     x : 10,
@@ -31,7 +31,7 @@ dino.x += 1
 // dino.draw()
 
 var cactus_img = new Image()
-cactus_img.src = '/cactus.png'
+cactus_img.src = './cactus.png'
 
 // 장애물 object
 class Cactus {
