@@ -115,7 +115,7 @@ document.addEventListener('keydown', function(e) {
         jumping = true
     }
 })
-document.addEventListener('touch', function(e) {
+document.addEventListener('touchstart', function(e) {
     if (e.code === 'Space') {
         jumping = true
     }
